@@ -1,14 +1,108 @@
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+}
+
+.header {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005cf7;
+  color: white;
+}
+
+.header ul {
+  margin: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005cf7;
+}
+
+.header li {
+  float: left;
+}
+
+.header li {
+  display: block;
+  color: white;
+  /* text-align: center; */
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #111;
+}
+
+.header li .caption_dienthoai {
+  font-size: 12px;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.search_khoa,
+.search_hv {
+  padding: 5px 5px 5px 15px;
+}
+.hvt {
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mhv {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.kq {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 5px;
+}
+
+.div_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleDetail {
+  padding: 10px;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  /* min-height: 100vh; */
+  /* padding: 4rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
